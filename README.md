@@ -4,6 +4,7 @@
 Set up a Terraform project that enables the deployment of resources on Google Cloud Platform (GCP). This project setup also a remote Terraform state file stored in a bucket created on GCP.
 
 There are two main sections, the first one explain how to setup the necessary resources in GCP and the second one will for the terraform code and the deploy part. 
+<img src="images/1_setps.png" width=80% height=80%>
 
 ## Setup in GCP
 ### 1.  Account creation
@@ -16,9 +17,8 @@ Once you have your account, go to the [GCP portal](https://console.cloud.google.
 
 - Select a Project / New Project / create
 
-<img src="images/2_select_projet.png" width=50% height=50%>
-
-![Screenshot](images/3_create_new_project.png {width="100" height="100"})
+<img src="images/2_select_projet.png" width=60% height=60%>
+<img src="images/3_create_new_project.png" width=60% height=60%>
 
 ### 3.  Create a service account: 
 - Hamburger menu / IAM & Admin / Service Account / + Create Service Account
