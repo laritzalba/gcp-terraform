@@ -162,9 +162,11 @@ Once you are in your favorite editor you will find two files "main.tf" and "vpc.
  You have deploy resources in GCP via terraform code (IaC), you can now go to the console and see the resources that has been created and also see the terraform.tfstate file in the folder inside the bucket. 
 
 This is the vpc that has been created 
+
 <img src="images/24.png" width=60% height=60%>
 
 This is the terraform.tfstate file inside the bucket
+
 <img src="images/25.png" width=60% height=60%>
 
 ## DEstroy
