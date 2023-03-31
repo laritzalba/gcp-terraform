@@ -155,3 +155,11 @@ Once you are in your favorite editor you will find two files "main.tf" and "vpc.
  ![Screenshot](images/23.png)
 
  It is important to note that using the "-auto-approve" flag can be risky, as it bypasses the confirmation step and can result in unintended changes to the infrastructure. Therefore, it is recommended to use this flag with caution and only when you are certain that the changes are safe to apply.
+
+
+ ## Congratulations
+
+ You have deploy resources in GCP via terraform code (IaC), you can now go to the console and see the resources that has been created and also see the terraform.tfstate file in the folder inside the bucket. 
+
+<img src="images/24.png" width=60% height=60%>
+<img src="images/25.png" width=60% height=60%>
