@@ -169,7 +169,7 @@ This is the terraform.tfstate file inside the bucket
 
 <img src="images/25.png" width=60% height=60%>
 
-## DEstroy
+## Destroy the resources 
 
 If you want to destroy, the resources you can run 
 
