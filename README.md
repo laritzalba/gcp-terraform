@@ -4,7 +4,6 @@
 Set up a Terraform project that enables the deployment of resources on Google Cloud Platform (GCP). This project setup also a remote Terraform state file stored in a bucket created on GCP.
 
 There are two main sections, the first one explain how to setup the necessary resources in GCP and the second one will for the terraform code and the deploy part. 
-<img src="images/1_setps.png" width=80% height=80%>
 
 ## Setup in GCP
 ### 1.  Account creation
@@ -22,38 +21,56 @@ Once you have your account, go to the [GCP portal](https://console.cloud.google.
 
 ### 3.  Create a service account: 
 - Hamburger menu / IAM & Admin / Service Account / + Create Service Account
-
- - Choose a name, choose and id 
-
+  <img src="images/3_service_account.png" width=60% height=60%>
+ - Choose a name,
+  <img src="images/4.png" width=60% height=60%>
+  
  - Grant this service account access to project
     -  in the menu "By product or service" scroll down and  choose "Project" and give it the "Editor" role.
+    <img src="images/5.png" width=60% height=60%>
+  
 - Grant users access to this service account. 
   
   Put the user email that you want to grant the permission to administer this service account.
+ 
+  <img src="images/6.png" width=60% height=60%>
 - Done 
   
   You've created the Service account, now you need to create your api key to allow connection. 
 - API Key creation
 
   Go to you service account / Keys / ADD KEYS / Create new key / JSON / Create
+   <img src="images/7.png" width=60% height=60%>
+   <img src="images/8.png" width=60% height=60%>
+   <img src="images/9.png" width=60% height=60%>
 
   It will download the key. Put in a file in your pc.   
+    <img src="images/10.png" width=60% height=60%>
+  
+ 
 
 ### 4. Enable API 
 You need to enable some API, for that go to :
 - Hamburger menu / APIs & Services / Enabled APIs & services / + ENABLE APIS & SERVICES 
+<img src="images/11.png" width=60% height=60%>
+<img src="images/12.png" width=60% height=60%>
 - On the search bar, search for this 3 API, and eanble them if not alredy anabled.  
   - Cloud Storage
   - Compute Engie API  
   - Cloud resource manager API 
+  <img src="images/13.png" width=60% height=60%>
+  <img src="images/14.png" width=60% height=60%>
+  <img src="images/15.png" width=60% height=60%>
 
 ### 5. Bucket Creation
 
 To Create a bucket in google cloud console go to 
 
 - Hamburger menu / Cloud Storage / Buckets / + Create / Name your bucket (unique name) / Continue/ choose the option that you want / Create 
+<img src="images/16.png" width=60% height=60%>
+<img src="images/17.png" width=60% height=60%>
 - One the bucket create, go to your bucket and creata folder inside (tab Create Folder), name ir and create. 
-
+<img src="images/19.png" width=60% height=60%>
 
 Congratulations, all the necessary setup in GCP is done, now will will continue with the Terraform code section. 
 
