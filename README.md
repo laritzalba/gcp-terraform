@@ -16,9 +16,9 @@ Once you have your account, go to the [GCP portal](https://console.cloud.google.
 
 - Select a Project / New Project / create
 
-![Screenshot](images/2_select_projet.png width="100" height="100")
+<img src="images/2_select_projet.png" width=50% height=50%>
 
-![Screenshot](images/3_create_new_project.png width="100" height="100")
+![Screenshot](images/3_create_new_project.png {width="100" height="100"})
 
 ### 3.  Create a service account: 
 - Hamburger menu / IAM & Admin / Service Account / + Create Service Account
