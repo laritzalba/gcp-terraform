@@ -166,3 +166,17 @@ This is the vpc that has been created
 
 This is the terraform.tfstate file inside the bucket
 <img src="images/25.png" width=60% height=60%>
+
+## DEstroy
+
+If you want to destroy, the resources you can run 
+
+```bash
+ terraform destroy
+ ```
+
+ or 
+ 
+ ```bash
+ terraform destroy -auto-approve
+ ```
