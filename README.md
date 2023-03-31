@@ -16,9 +16,9 @@ Once you have your account, go to the [GCP portal](https://console.cloud.google.
 
 - Select a Project / New Project / create
 
-![Screenshot](images/2_select_projet.png)
+![Screenshot](images/2_select_projet.png width="100" height="100")
 
-![Screenshot](images/3_create_new_project.png)
+![Screenshot](images/3_create_new_project.png width="100" height="100")
 
 ### 3.  Create a service account: 
 - Hamburger menu / IAM & Admin / Service Account / + Create Service Account
@@ -113,7 +113,9 @@ Once you are in your favorite editor you will find two files "main.tf" and "vpc.
   ```bash
  terraform plan
  ```
- you will see the resource to be created, at this time is only an overviw, no you need to run 
+ you will see the resource to be created, at this time is only an overviw, no resources has been create yet. 
+
+ ![Screenshot](images/21.png)
 
   ```bash
  terraform apply
@@ -125,6 +127,9 @@ Once you are in your favorite editor you will find two files "main.tf" and "vpc.
  terraform apply -auto-approve
  ```
 
- and you will see the resources has been crete 
+ and now the resources has been crete. 
+
+ ![Screenshot](images/22.png)
+ ![Screenshot](images/23.png)
 
  It is important to note that using the "-auto-approve" flag can be risky, as it bypasses the confirmation step and can result in unintended changes to the infrastructure. Therefore, it is recommended to use this flag with caution and only when you are certain that the changes are safe to apply.
