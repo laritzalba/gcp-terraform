@@ -1,5 +1,5 @@
 
-# Deploy with Terraform in Google Cloud Platform (GCP)
+# Deploy resources in Google Cloud Platform (GCP) using Terraform code
 
 Set up a Terraform project that enables the deployment of resources on Google Cloud Platform (GCP). This project setup also a remote Terraform state file stored in a bucket created on GCP.
 
