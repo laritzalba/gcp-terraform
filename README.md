@@ -54,10 +54,13 @@ You need to enable some API, for that go to :
 - Hamburger menu / APIs & Services / Enabled APIs & services / + ENABLE APIS & SERVICES 
 <img src="images/11.png" width=60% height=60%>
 <img src="images/12.png" width=60% height=60%>
-- On the search bar, search for this 3 API, and eanble them if not alredy anabled.  
+
+- On the search bar, search for this 3 API, and eanble them if not alredy anabled.
+
   - Cloud Storage
   - Compute Engie API  
   - Cloud resource manager API 
+
   <img src="images/13.png" width=60% height=60%>
   <img src="images/14.png" width=60% height=60%>
   <img src="images/15.png" width=60% height=60%>
