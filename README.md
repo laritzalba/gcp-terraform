@@ -67,12 +67,14 @@ You need to enable some API, for that go to :
 
 ### 5. Bucket Creation
 
-To Create a bucket in google cloud console go to 
+To Create a bucket in google cloud console go to: 
 
 - Hamburger menu / Cloud Storage / Buckets / + Create / Name your bucket (unique name) / Continue/ choose the option that you want / Create 
+
 <img src="images/16.png" width=60% height=60%>
 <img src="images/17.png" width=60% height=60%>
-- One the bucket create, go to your bucket and creata folder inside (tab Create Folder), name ir and create. 
+
+- Go to your bucket and creata folder inside (tab Create Folder), name ir and create. 
 <img src="images/19.png" width=60% height=60%>
 
 Congratulations, all the necessary setup in GCP is done, now will will continue with the Terraform code section. 
