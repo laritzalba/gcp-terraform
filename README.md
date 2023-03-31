@@ -16,9 +16,9 @@ Once you have your account, go to the [GCP portal](https://console.cloud.google.
 
 - Select a Project / New Project / create
 
-![Screenshot](2_select_projet.png)
+![Screenshot](images/2_select_projet.png)
 
-![Screenshot](3_create_new_project.png)
+![Screenshot](images/3_create_new_project.png)
 
 ### 3.  Create a service account: 
 - Hamburger menu / IAM & Admin / Service Account / + Create Service Account
@@ -106,11 +106,9 @@ Once you are in your favorite editor you will find two files "main.tf" and "vpc.
  terraform init
  ```
 
- you will see this
+![Screenshot](images/20.png)
 
- photo 
-
- after that 
+ after that, run 
 
   ```bash
  terraform plan
@@ -121,7 +119,7 @@ Once you are in your favorite editor you will find two files "main.tf" and "vpc.
  terraform apply
  ```
 
- yo need to confirm mannually or otherwise you can run 
+ you need to confirm mannually or otherwise you can run 
 
  ```bash
  terraform apply -auto-approve
